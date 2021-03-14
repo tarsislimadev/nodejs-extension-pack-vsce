@@ -1,0 +1,47 @@
+{
+  "name": "nodejs-extension-pack-vsce",
+  "displayName": "Visual Studio Code Node.js Extension Pack",
+  "version": "0.1.0",
+  "description": "Visual Studio Code Node.js Extension Pack",
+  "publisher": "tmvdl",
+  "icon": "nodejs-icon.png",
+  "galleryBanner": {
+    "color": "#026e00",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmvdl/nodejs-extension-pack-vsce.git"
+  },
+  "author": "Tarsis de Lima (https://github.com/tmvdl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmvdl/nodejs-extension-pack-vsce/issues"
+  },
+  "homepage": "https://github.com/tmvdl/nodejs-extension-pack-vsce#readme",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "publisher.extensionName",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "ms-vscode.vscode-typescript-next",
+    "HookyQR.beautify",
+    "xabikos.JavaScriptSnippets",
+    "christian-kohler.path-intellisense",
+  ],
+  "keywords": [
+    "Node.js",
+    "Web",
+    "Back-End",
+    "Front-End",
+    "JavaScript",
+    "Extension Packs"
+  ]
+}
